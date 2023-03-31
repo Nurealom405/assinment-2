@@ -10,10 +10,26 @@ body{
     margin: auto;
     width: 1300px;
 }
+.first-section{
+background-color: beige;
+}
 .title{
-    font-size: 30px;
+    font-size: 20px;
     /* font-weight: 700; */
 }
+.title-2{
+    font-size: 40px;
+}
+.btn-nur{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;    
+}
+
 
 
 /* Navigation */
@@ -25,7 +41,7 @@ body{
 }
 .navber a{
     text-decoration: none;
-    margin-right: 21px;
+    margin-right: 30px;
     color: #424242;;
 }
 .navber a:hover{
@@ -33,6 +49,32 @@ body{
     font-size: 22px;    
 }
 
+/* banner Section */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.banner-info h2{
+    text-align: center;
+}
+.banner-info p{
+    color: #727272;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.banner-info button{
+    /* aita center hocce na */
+}
+.banner-image img{
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
 
 
 
@@ -46,3 +88,22 @@ body{
 
 
 
+
+
+
+/* media Query */
+
+
+@media screen and (max-width: 577px) {
+    .container{
+        margin: auto;
+        width: 100%;
+    }
+    .navigation{
+        flex-direction: column;        
+    }
+    /* .navber{
+        display: flex;
+        flex-direction: column;        
+    } */
+}
