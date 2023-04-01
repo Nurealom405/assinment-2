@@ -90,10 +90,7 @@ background-color: beige;
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
 }
-.second-image-mt .second-image-cl img{
-    width: 100%;
-    height: auto;
-}
+
 .second-info h2{
     font-size: 40px;
 }
@@ -144,6 +141,10 @@ background-color: beige;
     }
     .second-image-mt{
         grid-template-columns: repeat(1, 1fr);
+    }
+    .second-image-mt .second-image-cl img{
+        width: 100%;
+        height: auto;
     }
 }
 
