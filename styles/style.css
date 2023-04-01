@@ -78,9 +78,10 @@ background-color: beige;
     display: flex;
     justify-content: center;
     text-align: center;
+    font-size: 15px;
 }
 .banner-info button{
-    /* aita center hocce na */
+    margin-left: 400px;
 }
 .banner-image img{
     height: auto;
@@ -124,7 +125,7 @@ background-color: beige;
 .third-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 70px;
+    margin-top: 30px;
     gap: 120px;
 }
 .informations{
@@ -176,6 +177,18 @@ background-color: beige;
     
 }
 
+/* fourth section */
+.fourth-section{
+    margin-top: 60px;
+}
+.fourth-section p{
+    font-size: 16px;
+    text-align: left;
+    color: #727272;
+}
+
+
+
 
 
 
@@ -206,12 +219,16 @@ background-color: beige;
     .navigation{
         flex-direction: column;        
     }
+    .banner-info button{
+        margin-left: 130px;
+        
+    }
     /* .navber{
         display: flex;
         flex-direction: column;        
     } */
     .second-div{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .second-image-mt{
         grid-template-columns: repeat(1, 1fr);
@@ -220,8 +237,12 @@ background-color: beige;
         width: 100%;
         height: auto;
     }
+    
     .third-section{
         grid-template-columns: repeat(1, 1fr);        
+    }
+    .btn-nur-ten{
+        display: none;
     }
     
 }
