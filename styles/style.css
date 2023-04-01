@@ -10,9 +10,9 @@ body{
     margin: auto;
     width: 1300px;
 }
-.first-section{
+/* .first-section{
 background-color: beige;
-}
+} */
 .title{
     font-size: 20px;
     /* font-weight: 700; */
@@ -76,6 +76,39 @@ background-color: beige;
     border-radius: 10px;
 }
 
+/* second section */
+
+.second-div{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 75px;
+    flex: 1;
+}
+.second-image-mt{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.second-image-mt .second-image-cl img{
+    width: 100%;
+    height: auto;
+}
+.second-info h2{
+    font-size: 40px;
+}
+.second-info .h2-clr{
+    color: #727272;
+}
+.second-info .h2-orange{
+    color: #FF900E;
+}
+.second-info p{
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
 
 
 
@@ -106,4 +139,18 @@ background-color: beige;
         display: flex;
         flex-direction: column;        
     } */
+    .second-div{
+        flex-direction: column;
+    }
+    .second-image-mt{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
+
+
+
+/*
+ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_button_on_image
+ -> button upore uthanor source
+
+ */
