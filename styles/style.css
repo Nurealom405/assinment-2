@@ -14,11 +14,11 @@ body{
 background-color: beige;
 } */
 .title{
-    font-size: 20px;
+    font-size: 18px;
     /* font-weight: 700; */
 }
 .title-2{
-    font-size: 40px;
+    font-size: 35px;
 }
 .btn-nur{
     background-color: orange;
@@ -28,6 +28,20 @@ background-color: beige;
     border: none;
     border-radius: 8px;
     font-size: 16px;    
+    
+}
+.btn-nur-ten{
+    background-color: orange;
+    color: white;
+    height: 120px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    font-size: 30px;
+        
+}
+.small-text{
+    font-size: 12px;
 }
 
 
@@ -105,6 +119,66 @@ background-color: beige;
     margin-bottom: 40px;
 }
 
+/* third section  */
+
+.third-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 70px;
+    gap: 120px;
+}
+.informations{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.info-header-div h2{
+    font-size: 45px;
+    border-left: 7px solid orange;
+    padding: 0px 0px 0px 15px;
+}
+.info-header-div p{
+    text-align: justify;
+    font-size: 16px;
+    color: #727272;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.info-comon-div{
+    
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+.info-comon-div h5{
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.info-comon-div p{
+    text-align: left;
+    color: #727272;
+    font-size: 16px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.third-sec-img{
+    position: relative;
+}
+.third-sec-img .btn-nur-ten{
+    position: absolute;
+    top: 86%;
+    left: 1%;
+}
+.third-sec-img img{
+    width: 100%;
+    
+}
+
+
+
+
 
 
 
@@ -146,6 +220,10 @@ background-color: beige;
         width: 100%;
         height: auto;
     }
+    .third-section{
+        grid-template-columns: repeat(1, 1fr);        
+    }
+    
 }
 
 
