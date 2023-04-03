@@ -178,6 +178,7 @@ background-color: beige;
 }
 
 /* fourth section */
+
 .fourth-section{
     margin-top: 60px;
 }
@@ -188,18 +189,34 @@ background-color: beige;
 }
 
 
+/* fifth section */
 
+.about-company{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+.about-container{
+    border: 2px solid orange;
+    border-radius: 15px;
+    margin-bottom: 20px;   
+    width: 100%;
+}
+.about-company img{
+    margin-top: 35px;
 
-
-
-
-
-
-
-
-
-
-
+}
+.about-company p{
+    margin-bottom: 25px;
+}
+.about-container:hover{
+    background-color: #c0bcbc;
+    color: #FFFFFF;
+    border-radius: 30px;
+    border: 2px solid white;
+}
 
 
 
@@ -243,6 +260,13 @@ background-color: beige;
     }
     .btn-nur-ten{
         display: none;
+    }
+    .about-company{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    .about-container{
+        margin-bottom: 5px;  
     }
     
 }
