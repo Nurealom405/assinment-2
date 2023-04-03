@@ -218,7 +218,28 @@ background-color: beige;
     border: 2px solid white;
 }
 
+/* 6th section */
+.sponsor{
+    text-align: center;
+    margin-top: 50px;
+}
+.sponsor-company{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 30px;
+    
+}
 
+/* footer */
+.footer{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: #FFF4E7;
+    padding: 15px 0px;
+}
 
 
 
@@ -264,10 +285,15 @@ background-color: beige;
     .about-company{
         grid-template-columns: repeat(2, 1fr);
         gap: 15px;
+        margin-bottom: 10px;
     }
     .about-container{
         margin-bottom: 5px;  
     }
+    .sponsor{
+        display: none;
+    }
+    
     
 }
 
